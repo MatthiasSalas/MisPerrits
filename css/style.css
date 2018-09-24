@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+padding: 0%;
+    
+}
+
+.logo img{
+
+    height: auto;
+    margin-left: 0.5vh;
+    padding-top: 5%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 10%;
+   
+}
+header{
+    color: #ffffff;
+    height: auto;
+    width: 100%;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-y-menu{
+    background: #85D4B7;
+}
+
+.telefono h1{
+    font-family: 'Open Sans';
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20px;
+    margin: 20%;
+}
+
+.frase h1{
+    font-family: 'Open Sans';
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 20px;
+    margin:9%;
+}
+
+.menu{
+    padding-right: 20%;
+}
+.menu a{
+
+font-family: 'Open Sans';
+font-size: 15px;
+padding: 30px 15px;
+display: inline-block;
+
+}
+/*
+.redes li{
+    list-style: none;
+    display: flex;
+}
+*/
+@media screen and (max-width: 480px){
+    .menu a{
+        border-bottom: 1.5px solid #ffffff; 
+    }
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* menu responsivo */ 
+@media screen and (min-width:480px){
+
+    nav ul{
+
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .logo{
+        height: 5vh;  
+        text-align: center;
+        
+    }
+
+}
+
+section{
+    background-color: #6DCCAA;
+}
+.perro img{
+    width: 85%;
+    max-width: 960px;
+    margin:20px;
+}
+.redes{
+   padding: 4.5%;
+}
+.sociales{
+    
+    margin: 15px;
+    color: #6DCCAA;
+}
+
+@media screen and (max-width: 480px) {
+    .frase{
+            display:none;
+    }
+    .telefono{
+            display:none;
+    }
+    .redes{
+        margin: 10%;
+    }
+
+    .perroRescate img{
+        width: 100%;
+        height: auto;
+    }
+
+    .menu{
+        padding: 5%;
+    }
+
+    #boton{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+}
+
+
+i{
+    padding: 10px 10px;
+    background: #ffffff;
+    height: 70px;
+    width: 70px;
+    -moz-box-shadow: 0 0 0 2px #ffffff;
+    -webkit-box-shadow: 0 0 0 2px #ffffff;
+    border-radius: 60%;
+    margin: 15px;
+    
+}
+/* parte 1 (rescate)*/
+.rescate{
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+}
+.rescate p{
+    font-family: 'Open Sans';
+    color: #7F8186;
+    font-size: 18px;
+    float: right;
+    width: auto;
+}
+
+.rescate h1{
+    font-family: 'Open Sans';
+    color: #000000;
+    font-size: 28px;
+
+}
+.rescate h3{
+    font-family: 'Open Sans';
+    color: #7F8186;
+    font-size: 18px;
+
+}
+
+.rescate hr{
+    width: 150px;
+    float: right;
+    border: 1px solid #7F8186;
+    
+}
+/* parte 2 (crowfunding)*/
+.crowfunding{
+    margin-top: 20px;
+    float: left;
+}
+
+.crowfunding img{
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
+
+.crowfunding h3{
+    font-family: 'Open Sans';
+    color: #7F8186;
+    font-size: 15px;
+
+}
+
+.crowfunding p{
+    font-family: 'Open Sans';
+    color: #7F8186;
+    font-size: 18px;
+    float: left;
+    width: auto;
+}
+
+.crowfunding hr{
+    width: 150px;
+    float: left;
+    border: 1px solid #7F8186;
+}
+
+p{
+    font-family: 'Open Sans';
+    color: #7F8186;
+    font-size: 18px;
+    margin: 5px;
+
+}
+footer{
+    background-color: #6DCCAA;
+    height: 150px;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    
+}
+
+.barra{
+    background-color: rgba(214, 200, 200, 0.747);
+    width: 100vw;
+    height: 50px;
+}
+.barra p{
+    color: #000;
+    font-family: 'Open Sans';
+    font-size:15px;
+    margin: 1.5%;
+
+}
+button{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* galeria carrusel*/
+
+.perrosAdoptados img{
+    width: 100vw;
+    height: 400px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.textoPerros{
+    position: absolute;
+    font-family: 'Indie Flower';
+    color: #48C9B0;
+    left: 15%;
+    top: 80%;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 480px) {
+    .textoPerros{
+        position: absolute;
+        font-family: 'Indie Flower';
+        color: #48C9B0;
+        top: 80%;
+        left: 5%;
+        right: 5%;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+}
+
+/* galeria normal */
+.galeria img{
+    width: 150px;
+    height: auto;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.galeria li{
+    margin: 3px;
+}
+.galeria{
+    background-color: #6DCCAA;
+    padding: 10px;
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.lightbox{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    background: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img{
+    width: 50%;
+    max-width: 90%;
+    max-height: 95%;
+
+}
+
+
+.cerrar{
+    width: 60px;
+    height: 60px;
+    background: #48C9B0;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    cursor: pointer;
+    top: 5%;
+    right: 5%;
+}
+
+@media screen and (max-width:480px){
+    .galeria img{
+        max-width: 60%;
+        width: 40;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .cerrar{
+        width: 40px;
+        height: 40px;
+        background: #48C9B0;
+        border: 2px solid #ffffff;
+        border-radius: 100%;
+        color: #ffffff;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 2.3%;
+        position: absolute;
+        cursor: pointer;
+        top: 90%;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .lightbox{
+        width: 100%;
+        height: 100%;
+        right: 8%;
+        top: 0;
+        position: fixed;
+        background: rgb(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .lightbox img{
+        width: 65%;
+    }
+}
+
+#contenedor-formulario{
+    background-color: #6DCCAA;
+    width: 100vw;
+    height: auto;
+    float: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin:0.5%;
+    
+}
+#contenedor-formulario h1{
+
+    font-family: 'Open Sans';
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 100px;
+    margin:0.5%;
+    float: center;
+}

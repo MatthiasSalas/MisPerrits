@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/validaciones.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.perrosAdoptados').bxSlider();
+        });
+    </script>
+    <title>Bienvenido a Mis Perris</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="logo-y-menu">
+
+                <div class="row center-xs">
+                    <div class="logo col-xs-12 col-sm-3">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="menu col-xs-12 col-sm-9 start-sm">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">inicio</a>
+                                </li>
+                                <li>
+                                    <a href="#quienes">quienes somos</a>
+                                </li>
+                                <li>
+                                    <a href="#rescatados">servicios</a>
+                                </li>
+                                <li>
+                                    <a href="#contenedor-formulario">contáctanos</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <section>
+            <div class="row center-xs">
+                <div class="perrosAdoptados">
+                    <div>
+                        <div class="textoPerros">Scott es una acompañante fiel que esta contigo en cualquier momento.</div>
+                        <img src="img/Duque.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="textoPerros">Spike es nuestro protector... un guardián pequeño y juguetón.</div>
+                        <img src="img/Apolo.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="textoPerros">Manjar es tan dulce como su nombre.</div>
+                        <img src="img/Tom.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="telefono col-sm-3">
+                    <h1>+56 9 987654321</h1>
+                </div>
+                <div class="frase col-sm-6 center-sm">
+                    <h1>Rescate y adopcion de perros callejeros</h1>
+                </div>
+                <div class="redes col-xs-12 col-sm-3">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <span>
+                                        <i class="sociales icon-facebook"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.gmail.com/">
+                                    <span>
+                                        <i class="sociales icon-google-plus"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <span>
+                                        <i class="sociales icon-instagram"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.hotmail.com/">
+                                    <span>
+                                        <i class="sociales icon-envelope"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+        <div class="row">
+            <div id="quienes" class="rescate col-xs-12 col-sm-6">
+                <div class="col-xs-12">
+                    <h1>RESCATE</h1>
+                    <br>
+                    <h3>ETAPA UNO</h3>
+                    <hr>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="col-xs-12">
+                    <p>Rescatamos perros en situacion de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarles
+                        un hogar.</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="perroRescate col-xs-12">
+                    <img src="img/rescate.jpg" alt="">
+                </div>
+            </div>
+            <div class="crowfunding col-xs-12 col-sm-6">
+
+                <img src="img/crowfunding.jpg" alt="">
+                <br>
+                <div class="col-xs-12">
+                    <h1>CROWFUNDING</h1>
+                    <br>
+                    <h3>FINANCIMIENTO</h3>
+                    <hr>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-xs-12">
+                    <p>Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos
+                        para obtener financiamiento para seguir ayudando.</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <button id="boton">CAMPAÑAS</button>
+                </div>
+                <br>
+                <br>
+            </div>
+            <ul class="galeria col-xs-12" id="rescatados">
+                <li>
+                    <img src="img/Luna_tn.jpg" alt="img/Luna.jpg" class="galeria-imagenes">
+                </li>
+                <li>
+                    <img src="img/Maya_tn.jpg" alt="img/Maya.jpg" class="galeria-imagenes">
+                </li>
+                <li>
+                    <img src="img/Oso_tn.jpg" alt="img/Oso.jpg" class="galeria-imagenes">
+                </li>
+                <li>
+                    <img src="img/Pexel_tn.jpg" alt="img/Pexel.jpg" class="galeria-imagenes">
+                </li>
+                <li>
+                    <img src="img/Wifi_tn.jpg" alt="img/Wifi.jpg" class="galeria-imagenes">
+                </li>
+                <li>
+                    <img src="img/Chocolate_tn.jpg" alt="img/Chocolate.jpg" class="galeria-imagenes">
+                </li>
+                <li>
+                    <img src="img/Bigotes_tn.jpg" alt="img/Bigotes.jpg" class="galeria-imagenes">
+                </li>
+            </ul>
+
+            <div class="imagenesGrandes">
+
+            </div>
+            <script src="js/main.js"></script>
+
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-xs-12" id="contenedor-formulario">
+                        <br>
+                        <h1>Formulario de Adopcion</h1>
+                        <br>
+                        <form name="form1" method="post">
+                            <label>Nombre: </label>
+                            <input type="text" name="Nombre" placeholder="Nombre Apellido" id="nombre" required>
+                            <br>
+                            <br>
+                            <label>Correo electrónico:</label>
+                            <input type="text" name="correo" placeholder=" correo.elect@gmail.com" id="correo" required>
+                            <br>
+                            <br>
+                            <label>Rut:</label>
+                            <input type="text" required="required" pattern="[0-9]{7,8}-[0-9Kk]{1}" value="" name="rut" id="rut" placeholder="12345678-9"
+                                title="ej. 12345678-9">
+                            <br>
+                            <br>
+                            <label>Fecha de nacimiento:</label>
+                            <input type="date" id="fechaNac" name="fechaNac" max="2000-12-31" required>
+                            <br>
+                            <br>
+                            <label>Numero contacto:</label>
+                            <input type="text" required="required" value="" name="numero" id="numero" placeholder="56998745628"
+                                title="ej. 56998745628">
+                            <br>
+                            <br>
+                            <div class="datos">
+                                <label>Seleccione Region:</label>
+                                <select id="regiones"></select>
+                                <br>
+                                <br>
+                                <label>Seleccione Comuna:</label>
+                                <select id="comunas"></select>
+
+
+                            </div>
+                            <br>
+                            <br>
+                            <label>Seleccione tipo de vivienda:</label>
+                            <select name="Hogar" id="vivienda" required>
+
+                                <option value="">Seleccione tipo casa</option>
+                                <option value="">Casa con patio grande</option>
+                                <option value="">Casa con patio pequeño</option>
+                                <option value="">Casa sin patio</option>
+                                <option value="">Departamento</option>
+                            </select>
+                            <BR>
+                            <BR>
+                            <input type="submit" value="Enviar" id="enviar" />
+                            <br>
+                            <br>
+                            <br>
+
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
